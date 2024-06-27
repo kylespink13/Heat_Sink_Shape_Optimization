@@ -26,7 +26,7 @@ Material covered in the course:
   3. Random Walks
      - Brownian Motion
      - Stochastic Differential Equations
-     - Fokker-Plank Equation
+     - Fokker-Planck Equation
      - Ornstein-Uhlenbeck Process
   5. Black-Scholes Equation
      - Ito's Lemma
