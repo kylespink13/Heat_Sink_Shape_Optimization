@@ -5,16 +5,16 @@
 
 ---
 
-The purpose of the MATLAB files are to a) solve 2D Laplace Equation with Dirichlet and convective boundary conditions (constant heat emitted from the bottom of the heat sink in ambient temperature), b) calculate the defined objective function,
+The purpose of the MATLAB files are to a) solve 2D Laplace Equation with Dirichlet and convective boundary conditions ([Math_112C_Project_Main.m](Math_112C_Project_Main.m)) (constant heat emitted from the bottom of the heat sink in ambient temperature), b) calculate the defined objective function ([objectiveFunction.m](objectiveFunction.m)),
 $$J = \lambda_{1}\frac{area_{k}}{area_{ref}} + \lambda_{2}\frac{temp_{k}}{temp_{ref}}$$
-where $\lambda_{1}$ and $\lambda_{2}$ are weights placed on the normalized area and average temperature (to be minimized), and c) generate the updated geometry using the adjoint method with a gradient descent algorithm.
+where $\lambda_{1}$ and $\lambda_{2}$ are weights placed on the normalized area and average temperature (to be minimized), and c) generate the updated geometry using the adjoint method with a gradient descent algorithm ([yGradient.m](yGradient.m)).
 
 ---
 
 ### Background:
 Final project for UC Irvine's Math 112C—Intro to Partial Differential Equations III course.
 
-Concepts covered:
+Material covered in the course:
   1. Numerical Methods for ODEs and PDEs
      - Euler's Method
      - Error and Stability
