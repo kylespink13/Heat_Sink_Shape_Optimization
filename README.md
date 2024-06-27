@@ -4,7 +4,7 @@
 Optimal Control of Systems Governed by Partial Differential Equations, Heat Sink Shape Optimization using the Adjoint Method
 
 The purpose of the MATLAB files are to a) solve 2D Laplace Equation with Dirichlet and convective boundary conditions (constant heat emitted from the bottom of the heat sink in ambient temperature), b) calculate the defined objective function,
-$$J = \lambda_{1}\frac{\text{area}_{k}}{\text{area}_{\text{ref}}} + \lambda_{2}\frac{\text{temp}_{k}}{\text{temp}_{\text{ref}}}$$
+$$J = \lambda_{1}\frac{area_{k}}{area_{ref}} + \lambda_{2}\frac{temp_{k}}{temp_{ref}}$$
 and c) generate the updated geometry using the adjoint method with a gradient descent algorithm.
 
 ### Background:
