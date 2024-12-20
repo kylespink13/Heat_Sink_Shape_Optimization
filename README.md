@@ -11,6 +11,12 @@ where $\lambda_{1}$ and $\lambda_{2}$ are weights placed on the normalized area 
 
 ---
 
+<div align="center">
+  <img src="Heat%20Sink%20Shape%20Evolution.gif" alt="Heat Sink Shape Evolution gif" width="50%">
+</div>
+
+---
+
 ### Background:
 Final project for UC Irvine's Math 112C—Intro to Partial Differential Equations III course.
 
